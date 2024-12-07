@@ -149,3 +149,30 @@ header .column span {
 .piano-keys .key.hide span {
   display: none;
 }
+
+@media (max-width: 710px) {
+ .container{
+  width: 100vw;
+  padding: 10px;
+ }
+
+ .container header{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+ }
+
+ header h2,
+ header .column span{
+  padding: 5px;
+  font-size: 1rem;
+
+ }
+
+ .volume-slider input,
+ .keys-check input:checked::before
+ {
+  font-size: 0.6rem;
+ }
+}
+

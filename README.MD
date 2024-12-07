@@ -7,6 +7,12 @@ O **Virtual Piano Simulator** é um jogo interativo onde você pode tocar piano 
 Após a conclusão do projeto inicial, foram adicionadas melhorias pessoais para aprimorar a experiência do usuário. O jogo agora conta com uma **tela inicial personalizada**, e há planos para implementar outras funcionalidades no futuro! 🚀
 
 ---
+## 🧪 Teste o Projeto
+
+Você pode acessar o projeto em funcionamento no seguinte link:  
+[**Virtual Piano Simulator**](https://marlonalvss.github.io/js-music-keyboard-virtual/)
+
+---
 
 ## ✨ Funcionalidades
 

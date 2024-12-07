@@ -1,6 +1,16 @@
 const pianoKeys = document.querySelectorAll(".piano-keys .key");
 const volumeSlider = document.querySelector(".volume-slider input");
 const keysCheck = document.querySelector(".keys-check input");
+const container = document.querySelector(".container");
+const initial = document.querySelector(".initial")
+const play = document.getElementById("play");
+
+ function showContent(){
+  initial.style.display = "none"
+  container.style.display = "block"
+}
+
+play.addEventListener("click", showContent)
 
 let mapedKeys = [];
 let audio = new Audio("src/tunes/a.wav");
